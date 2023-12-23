@@ -1,0 +1,25 @@
+<%- include('../partials/header') %>
+
+<h2>Enter a New Ingredient</h2>
+<form action="/glazes" method="POST">
+  <label>Brand:
+    <input type="text" name="brand">
+  </label><br>
+  <label>Color:
+    <input type="text" name="color">
+  </label><br>
+  <label>Item number:
+    <input type="number" name="itemNumber">
+  </label><br>
+  <label>Style:
+    <select name="style">
+      <option value="Opaque">Opaque</option>
+      <option value="Gloss">Gloss</option>
+      <option value="Transparent">Transparent</option>
+    </select>
+  </label><br>
+  <button type="submit">Add Glaze</button>
+</form>
+<p><%= errorMsg %></p>
+
+<%- include('../partials/footer') %>

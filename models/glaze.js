@@ -9,13 +9,14 @@ const glazeSchema = new Schema({
     color: {
         type: String
     },
-    itemNumber: {
-        Type: Number
-    },
     style : {
-        type: string,
+        type: String,
         enum: ['Opaque', 'Gloss', 'Transparent']
+    },
+    itemNumber: {
+        type: Number
     }
 }, {
     timestamps: true
 })
+module.exports = mongoose.model('Glaze', glazeSchema)

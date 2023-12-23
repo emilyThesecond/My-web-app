@@ -1,4 +1,23 @@
 <%- include('../partials/header') %>
 
-
+<table id="list">
+    <thead>
+      <tr>
+        <th>Brand</th>
+        <th>Color</th>
+        <th>Item<br>Number</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <% glazes.forEach(function(g) { %>
+        <tr>
+          <td><%= g.brand %></td>
+          <td><%= g.color %></td>
+          <td><%= g.itemNumber %></td>
+          <td><a href="/glazes/<%= g._id %>">DETAILS</a></td>
+        </tr>
+        <% }); %>
+      </tbody>
+    </table>
 <%- include('../partials/footer') %>
