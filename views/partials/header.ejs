@@ -9,13 +9,12 @@
 <body>
   <nav>
     <a href="/glazes">All Glazes</a>
-    <a href="/glazes/new">Add Glazes</a>
-    <!-- <% if (user) { %> -->
-    <!-- <a href="/glazes/new">Add Glazes</a> -->
-      <!-- <a href="/logout">LOG OUT</a> -->
-    <!-- <% } else { %> -->
-      <!-- <a href="/auth/google" class="login">LOG IN&nbsp;<img src="https://i.imgur.com/FHjYyi0.png"></a> -->
-    <!-- <% } %> -->
+    <% if (user) { %>
+      <a href="/glazes/new">Add Glaze</a>
+      <a href="/logout">LOG OUT</a>
+    <% } else { %>
+      <a href="/auth/google" class="login">LOG IN&nbsp;<img src="https://i.imgur.com/FHjYyi0.png"></a>
+    <% } %>
   </nav>
   <main>
 
