@@ -18,6 +18,8 @@ const reviewSchema = new Schema ({
         max: 5,
         default: 5
     }
+}, {
+    timestamps: true
 })
 
 const glazeSchema = new Schema({
@@ -33,5 +35,7 @@ const glazeSchema = new Schema({
         type: Number
     },
     reviews: [reviewSchema]
-})
+}, {
+    timestamps: true
+  })
 module.exports = mongoose.model('Glaze', glazeSchema)
