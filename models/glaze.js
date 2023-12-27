@@ -2,12 +2,28 @@ const mongoose = require('mongoose')
 
 const Schema = mongoose.Schema
 
-const glazeSchema = new Schema({
-    brand: {
+const reviewSchema = new Schema ({
+    glazeTech: {
         type: String
     },
-    color: {
-        type: String
+    firing: {
+        type: String,
+    },
+    review: {
+        type: String,
+    },
+    rating: {
+        type: Number,
+        min: 1,
+        max: 5,
+        default: 5
+    }
+})
+
+const glazeSchema = new Schema({
+    brand: {
+        type: String,
+        color: String,
     },
     style : {
         type: String,
@@ -15,8 +31,7 @@ const glazeSchema = new Schema({
     },
     itemNumber: {
         type: Number
-    }
-}, {
-    timestamps: true
+    },
+    reviews: [reviewSchema]
 })
 module.exports = mongoose.model('Glaze', glazeSchema)
