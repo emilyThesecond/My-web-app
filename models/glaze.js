@@ -9,7 +9,7 @@ const reviewSchema = new Schema ({
     firing: {
         type: String,
     },
-    review: {
+    content: {
         type: String,
     },
     rating: {
