@@ -1,6 +1,7 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin : 0;
 }
 
 a {
@@ -25,4 +26,19 @@ a {
 .review-user img {
   border-radius: 50%;
   height: 40px;
+}
+#name {
+  font-size: 5vmin;
+}
+.headerPics {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+#one, #two, #three  {
+  height:6vmin;
+  width: 23vmin;
+  margin: -100px 0;
 }
