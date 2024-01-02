@@ -19,4 +19,7 @@ Wireframe:
 
 Trello:
 [link](https://trello.com/invite/b/H716waB7/ATTI9b2efde8ddee05f5b3d4bdcec59deb913564FE6F/my-web-app)
+***
+Credits:
+https://unsplash.com/photos/assorted-bowls-on-brown-surface-ypi0l7vP0Vw
 
