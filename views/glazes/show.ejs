@@ -21,11 +21,17 @@
 
 
 
-<br><br><h2>Reviews</h2>
+<br><br><h2 class="reviews-header">Reviews</h2>
 <% if (user) { %>
   <form id="add-review-form" method="POST" action="/glazes/<%= glaze._id %>/reviews">
+    <label>Glaze Technique:
+      <input type="text" name="glazeTech">
+    </label><br>
+    <label>Firing type:
+      <input type="text" name="firing">
+    </label><br>
     <label>Review:</label>
-    <textarea name="content"></textarea>
+    <textarea name="content"></textarea><br>
     <label>Rating:</label>
     <select name="rating">
       <option value="1">1</option>
@@ -33,16 +39,18 @@
       <option value="3">3</option>
       <option value="4">4</option>
       <option value="5">5</option>
-    </select>
+    </select><br>
     <input type="submit" value="Add Review">
   </form>
 <% } %>
 <% if (glaze.reviews.length) { %>
-  <table>
+  <table class="review-table">
     <thead>
       <tr>
         <th>User</th>
         <th>Date</th>
+        <th>Glaze Technique</th>
+        <th>Firing Type</th>
         <th>Review</th>
         <th>Rating</th>
         <th></th>
@@ -56,6 +64,8 @@
         <tr>
           <td class="review-user"><img alt="avatar" src="<%= r.userAvatar %>" referrerpolicy="no-referrer" ><%= r.userName %></td>
           <td><%= r.createdAt.toLocaleDateString() %></td>
+          <td><%= r.glazeTech %></td>
+          <td><%= r.firing %></td>
           <td><%= r.content %></td>
           <td><%= r.rating %></td>
           <td>
