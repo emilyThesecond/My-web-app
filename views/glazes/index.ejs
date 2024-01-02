@@ -1,23 +1,59 @@
 <%- include('../partials/header') %>
 <h1 class="ingredients">Ingredients</h1>
-<table id="list">
+
+
+
+<table style="width: 100%" id="list">
     <thead>
       <tr>
-        <th>Brand</th>
-        <th>Color</th>
-        <th>Item<br>Number</th>
+        <th style="width:20%">Brand</th>
+        <th style="width:50%">Item<br>Number</th>
+        <th style="width:30%">Color</th>
         <th></th>
       </tr>
     </thead>
     <tbody>
       <% glazes.forEach(function(g) { %>
         <tr>
-          <td><%= g.brand %></td>
-          <td><%= g.color %></td>
-          <td><%= g.itemNumber %></td>
+          <td id="brand"><%= g.brand %></td>
+          <td id="number"><%= g.itemNumber %></td>
+          <td id="color"><%= g.color %></td>
           <td><a href="/glazes/<%= g._id %>">DETAILS</a></td>
         </tr>
         <% }); %>
       </tbody>
     </table>
+
+    <!-- <div class="card container">
+      <div class="card"></div>
+      <div class="card-content">
+      <% glazes.forEach(function(g) { %>
+        <h3><%= g.brand %></h3>
+        <a href="/glazes/<%= g._id %>">DETAILS</a>
+        <% }); %>
+      </div>
+    </div>
+    </div> -->
+
+
+    <!-- <div class="row">
+      <% glazes.forEach(function(g) { %>
+      <div class="column">
+        <div class="card"><%= g.brand %></div>
+      </div>
+      <div class="column">
+        <div class="card"><%= g.brand %></div>
+      </div>
+      <div class="column">
+        <div class="card"><%= g.brand %></div>
+      </div>
+      <% }); %>
+    </div> -->
+     
+
+
+
+
+
+
 <%- include('../partials/footer') %>

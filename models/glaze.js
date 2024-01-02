@@ -32,8 +32,8 @@ const reviewSchema = new Schema ({
 const glazeSchema = new Schema({
     brand: {
         type: String,
-        color: String,
     },
+        color: String,
     style : {
         type: String,
         enum: ['Opaque', 'Gloss', 'Transparent']
