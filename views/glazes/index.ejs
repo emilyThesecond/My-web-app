@@ -7,8 +7,9 @@
     <thead>
       <tr>
         <th style="width:20%">Brand</th>
-        <th style="width:50%">Item<br>Number</th>
+        <th style="width:20%">Item<br>Number</th>
         <th style="width:30%">Color</th>
+        <th style="width:30%">Rating</th>
         <th></th>
       </tr>
     </thead>
@@ -18,6 +19,7 @@
           <td id="brand"><%= g.brand %></td>
           <td id="number"><%= g.itemNumber %></td>
           <td id="color"><%= g.color %></td>
+          <td id="rate"><%= g.rating %></td>
           <td><a href="/glazes/<%= g._id %>">DETAILS</a></td>
         </tr>
         <% }); %>

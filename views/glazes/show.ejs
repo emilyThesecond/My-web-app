@@ -1,14 +1,25 @@
 <%- include('../partials/header') %>
-<section id="show-page">
-    <div>Brand: </div>
-    <div><%= glaze.brand %></div>
-    <div>Color: </div>
+<section id="showTable">
+<section class="show-page">
+  <div class="space">Brand:     </div>
+  <div><%= glaze.brand %></div>
+</section>
+<section class="show-page">
+    <div class="space">Color:     </div>
     <div><%= glaze.color %></div>
-    <div>Style: </div>
+</section>
+<section class="show-page">
+    <div class="space">Style:     </div>
     <div><%= glaze.style %></div>
-    <div>Item Number: </div>
-    <div><%= glaze.itemNumber %></div>
   </section>
+  <section class="show-page">
+    <div class="space">Item Number:     </div>
+    <div><%= glaze.itemNumber %></div>
+</section>
+</section>
+  
+
+
 
 <br><br><h2>Reviews</h2>
 <% if (user) { %>

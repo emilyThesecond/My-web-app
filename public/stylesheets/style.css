@@ -104,6 +104,31 @@ th, td {
 td {
   padding: 3vmin;
 }
+.show-page {
+  font-family: 'DM Serif Display', serif;
+  font-size: 3vmin;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 1.8vmin;
+  padding-left: 8vmin;
+  /* margin: 0 20vmin; */
+  color: rgb(66, 95, 66);
+
+}
+#showTable {
+  background-color: #f1f1f1;
+  margin-top: 4vmin;
+}
+
+.space {
+ padding-right: 20px;
+}
+
+
+
+
+
 
 
 
