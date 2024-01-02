@@ -25,13 +25,13 @@
   <img id="two" src="/images/twoScreenshot.png">
   <img id="three" src="/images/threeScreenshot.png">
   </div>
-  <nav>
+  <nav id="nav">
     <a href="/glazes">All Glazes</a>
     <% if (user) { %>
       <a href="/glazes/new">Add Glaze</a>
-      <a href="/logout">LOG OUT</a>
+      <a href="/logout" class="logout">Log Out</a>
     <% } else { %>
-      <a href="/auth/google" class="login"><img src="https://i.imgur.com/FHjYyi0.png"></a>
+      <a href="/auth/google" class="login">Login<img src="https://i.imgur.com/FHjYyi0.png"></a> 
     <% } %>
   </nav>
   <main>

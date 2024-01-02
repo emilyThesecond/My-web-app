@@ -9,13 +9,20 @@ a {
 }
 .login {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  height: 34px;
+  height: 35px;
+}
+.logout {
+  
+  padding: 10px;
+  /* display: flex;
+  justify-content: flex-end; */
 }
 
 .login img {
-  height: 30px;
+  height: 2.5vmin;
+  margin-top: .5vmin;
 }
 .review-user {
   display: flex;
@@ -40,7 +47,7 @@ a {
 #one, #two, #three  {
   height:6vmin;
   width: 21vmin;
-  margin: -120px 0;
+  margin: -8vmin 0;
 }
 #glaze {
   /* font-family: 'Courgette', cursive; */
@@ -53,6 +60,33 @@ a {
   font-family: 'DM Serif Display', serif;
   font-size: 6vmin;
   color: #a75414;
-  margin-top: -30px;
+  margin-top: -3.3vmin;
   margin-left: 20px;
 }
+.ingredients {
+  display: flex;
+  justify-content: center;
+  font-family: 'DM Serif Display', serif;
+  font-size: 6vmin;
+  color: rgb(66, 95, 66);
+  border-color: rgb(66, 95, 66);
+  border-style: solid;
+  border-radius: 20px;
+  margin-top: 0;
+}
+#nav > a {
+  color: white;
+  font-size: 2vmin;
+  text-decoration: none;
+  /* margin-top: -3.5vmin; */
+}
+
+#nav {
+  /* margin-top: 1vmin; */
+  background-color: rgb(71, 130, 71, 0.5);
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
