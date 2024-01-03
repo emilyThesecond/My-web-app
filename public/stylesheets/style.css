@@ -77,7 +77,6 @@ a {
 }
 
 #nav {
-  /* margin-top: 1vmin; */
   background-color: rgb(71, 130, 71, 0.5);
   display:flex;
   justify-content: space-evenly;
