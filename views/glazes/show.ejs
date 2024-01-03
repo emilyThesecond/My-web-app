@@ -26,13 +26,13 @@
   <table class="review-table">
     <thead>
       <tr>
-        <th>User</th>
-        <th>Date</th>
-        <th>Glaze Technique</th>
-        <th>Firing Type</th>
-        <th>Review</th>
-        <th>Rating</th>
-        <th></th>
+        <th class="head">User</th>
+        <th class="head">Date</th>
+        <th class="head">Glaze Technique</th>
+        <th class="head">Firing Type</th>
+        <th class="head">Review</th>
+        <th class="head">Rating</th>
+        <th ></th>
 
       </tr>
     </thead>
@@ -57,7 +57,7 @@
         </tr>
       <% }); %>
       <tr>
-        <td colspan="3"></td>
+        <td colspan="5"></td>
         <td><strong><%= (total / glaze.reviews.length).toFixed(1) %></strong></td>
       </tr>
     </tbody>
