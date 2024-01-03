@@ -143,23 +143,11 @@ td {
   
   font-family: 'DM Serif Display', serif;
 }
-
-
-
-/* #pots {
-  height: 100vmin;
-  width: 100%;
-  margin-top: -10px;
-} */
 .img {
-  /* background-image: url("https://media.istockphoto.com/id/1470984220/photo/ceramic-jar-wood-table-in-warm-tone.jpg?s=612x612&w=0&k=20&c=6rPzJg4-z_3lrIneAffi0uMKzf_vtb58BPmTEpsoYn0=") ; */
   background-image: url("https://images.unsplash.com/photo-1597696929736-6d13bed8e6a8?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cG90dGVyeXxlbnwwfHwwfHx8MA%3D%3D") ;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   background-size: cover;
-  
-  
-
 }
 
 .reviews-form {
