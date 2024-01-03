@@ -89,7 +89,7 @@ table, th, td {
   border-collapse: collapse;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   color: rgb(14, 51, 14);
-  font-size: 2.5vmin;
+  font-size: 2.2vmin;
   
 }
 th, td {
@@ -135,7 +135,7 @@ td {
   padding-left: 1vmin;
   margin-top: -1vmin;
   color: #0b4862;
-  padding: 2vmin;
+  padding: 4vmin;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -152,9 +152,14 @@ td {
   margin-top: -10px;
 } */
 .img {
-  background-image: url("https://images.unsplash.com/photo-1520408222757-6f9f95d87d5d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cG90dGVyeXxlbnwwfHwwfHx8MA%3D%3D") ;
+  /* background-image: url("https://media.istockphoto.com/id/1470984220/photo/ceramic-jar-wood-table-in-warm-tone.jpg?s=612x612&w=0&k=20&c=6rPzJg4-z_3lrIneAffi0uMKzf_vtb58BPmTEpsoYn0=") ; */
+  background-image: url("https://images.unsplash.com/photo-1597696929736-6d13bed8e6a8?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cG90dGVyeXxlbnwwfHwwfHx8MA%3D%3D") ;
   background-repeat: no-repeat;
-  width: 100%;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  
+  
+
 }
 
 .reviews-form {
@@ -196,10 +201,14 @@ td {
   font-size: 16px;
 }
 
-.button:hoover {
-background-color: #b53d25;
-color: white;
-}
 .details {
   color: rgb(117, 169, 117);
+}
+.login2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 35px;
+  padding-left: 100vmin;
+  font-family: 'DM Serif Display', serif;
 }
