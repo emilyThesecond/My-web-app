@@ -18,6 +18,11 @@ const reviewSchema = new Schema ({
         max: 5,
         default: 5
     },
+image: {
+    data: Buffer,
+    type: String,
+},
+
     user: {
         type: Schema.Types.ObjectId,
         ref: 'User',

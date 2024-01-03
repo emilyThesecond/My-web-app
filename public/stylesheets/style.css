@@ -136,17 +136,11 @@ td {
 }
 
 .review-table > th,td {
-  background-color: hsla(198, 80%, 21%, 0.502);
+  
   font-family: 'DM Serif Display', serif;
 }
 
-th, td {
-  background-color: #f1f1f1;
-}
 
-.review-table {
-  background-color: #0b486280;
-}
 
 /* #pots {
   height: 100vmin;
@@ -169,11 +163,11 @@ th, td {
   justify-content: center;
   font-family: 'DM Serif Display', serif;
   font-size: 6vmin;
-  color: #a75414;
-  border-color: #a75414;
+  color: rgb(66, 95, 66);
+  border-color: rgb(66, 95, 66);
   border-style: solid;
   border-radius: 20px;
-  margin-top: 0;
+  margin: 0 25vmin;
 }
 
 
