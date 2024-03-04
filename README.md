@@ -7,7 +7,7 @@ Glazing can be hard, tideous, and unpredictable. Glaze Cookbook can make your jo
 
 When first loading the page, you will be met with a list of glazes that have been reviewed, their rate, and a details button. At the the top you have a navigation bar that will take you back to this page by clicking the "Glazes" link. Additionally you can add a glaze that has not been reviewed yet by clicking the "Add a Glaze" link. When clicked you will meet a form to fill out. Once filled, you can submit the glaze and it will be added to the list of glazes. Now you can review the glaze by viewing the details of the glaze and fill out the review form at the bottom of the page! You can also find other potter's reviews in the detail page. That easy, Happy Glazing!
 ***
-[Glaze Cookbook](https://glaze-cookbook2-839a7d9cf08f.herokuapp.com/)
+[Glaze Cookbook](https://glaze-cookbook-587f2459d5c3.herokuapp.com/)
 ## Planing Materials
 Wireframe:
 * [Landing Page](https://drive.google.com/file/d/1D0Zpby86zT5O21Dbktk9scNayEiRZYgF/view?usp=sharing)
